@@ -770,7 +770,6 @@ module.provider('Restangular', function() {
                   if (data && etag) {
                       data[config.restangularFields.etag] = etag;
                   }
-                  console.log(data[config.restangularFields.etag]);
                   return data;
               }
               
